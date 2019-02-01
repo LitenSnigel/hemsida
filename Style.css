@@ -1,0 +1,74 @@
+body {
+  background-image: url("valkmusa_sunrise-wallpaper-3840x2160.jpg");
+  background-size: 1200px 1000px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  font-family: Impact;
+  font-size: 50px;
+}
+p {
+  color: white;
+  font-family: Impact;
+  font-size: 25px;
+  font-style: italic;
+}
+
+/*Toolbar högst upp på sidan*/
+
+#toolbartop {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: Impact;
+  text-align: center;
+  padding: 12px 50px;
+  text-decoration: none;
+  background-color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: orange;
+  color: black;
+}
+
+
+/* Toolbar till höger på sidan*/
+
+
+#toolbarright{
+  list-style-type: none;
+  margin: 10px;
+  padding: 1px;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  right: 3px;
+}
+
+#videogamesli {
+  float: none;
+}
+
+
+#copyright {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: Impact;
+  color: white;
+
+}
