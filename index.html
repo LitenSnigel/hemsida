@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Välkommen till Triple P</title>
+  <link rel ="stylesheet" href="maincss.css" />
+  <script src="loginvalidation.js"></script>
+</head>
+<body>
+
+<ul id="toolbartop">
+  <li><a href="index.html">Hem</a></li>
+  <li><a href="#">Gurr</a></li>
+  <li><a href="filip.html">Flipize</a></li>
+  <li><a href="#">Micke</a></li>
+
+  <script>
+    if(window.sessionStorage.getItem("loggedIn")==="true") {
+      document.write('<li style=\"float:right\"><a href="index.html" onclick="logOut();">Logga ut</a></li>');
+    }
+    else {
+      document.write("<li style=\"float:right\"><a href=\"login.html\">Logga in</a></li>");
+    }
+  </script>
+</ul>
+
+<ul id="toolbarright">
+  <li class="videogamesli"><a href="https://store.steampowered.com/" target="_blank">STEAM ®</a></li>
+  <li class="videogamesli"><a href="https://www.playstation.com/sv-se/" target="_blank">PLAYSTATION ®</a></li>
+  <li class="videogamesli"><a href="https://www.xbox.com/sv-SE/" target="_blank">XBOX ®</a></li>
+  <li class="videogamesli"><a href="https://www.nintendo.se/" target="_blank">NINTENDO ®</a></li>
+
+</ul>
+
+<h1>VÄLKOMMEN TILL TRIPLE P's HEMSIDA</h1>
+
+
+
+<p>En sida om Triple P's favoritspel <br>  Tryck ovan för att komma till killarnas sida </p>
+
+<div id="copyright">
+  © 2019 Micke B, Gurra G, Fille N
+</div>
+
+
+</body>
+</html>

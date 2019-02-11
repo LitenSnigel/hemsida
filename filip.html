@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="filipcss.css"/>
+    <script src="filip_scripts/script.js"></script>
+    <link rel="stylesheet" href="maincss.css">
+  <script src="loginvalidation.js"></script>
+
+</head>
+
+<body>
+
+<ul id="toolbartop">
+  <li><a href="index.html">Hem</a></li>
+  <li><a href="#">Gurr</a></li>
+  <li><a href="filip.html">Flipize</a></li>
+  <li><a href="#">Micke</a></li>
+
+  <script>
+    if(window.sessionStorage.getItem("loggedIn")==="true") {
+      document.write('<li style=\"float:right\"><a href="#" onclick="logOut();">Logga ut</a></li>');
+    }
+    else {
+      document.write("<li style=\"float:right\"><a href=\"login.html\">Logga in</a></li>");
+    }
+  </script>
+</ul>
+
+
+<div class="lista">
+  <div class="containerStyle">
+  <h1 class="listelement">Filips favoriter</h1>
+  <dl>
+    <dt class="listelement"><button class="buttonstyle" onclick="document.getElementById('bild').src='images/dayz.png'; document.getElementById('bildtext').innerHTML = myFunction('dayz')">DayZ</button></dt>
+    <dt class="listelement"><button class="buttonstyle" onclick="document.getElementById('bild').src='images/rl.jpg'; document.getElementById('bildtext').innerHTML = myFunction('rl')">Rocket League</button></dt>
+    <dt class="listelement"><button class="buttonstyle" onclick="document.getElementById('bild').src='images/bf.jpg'; document.getElementById('bildtext').innerHTML = myFunction('bf')">Battlefield 4</button></dt>
+    <dt class="listelement"><button class="buttonstyle" onclick="document.getElementById('bild').src='images/pubg.jpg'; document.getElementById('bildtext').innerHTML = myFunction('pubg')">PlayerUnknown's Battlegrounds</button></dt>
+    <dt class="listelement"><button class="buttonstyle" onclick="document.getElementById('bild').src='images/fifa.jpg'; document.getElementById('bildtext').innerHTML = myFunction('fifa')">Fifa 19</button></dt>
+  </dl>
+  </div>
+</div>
+
+
+
+
+<div id="bildbox" class="imagecontainer">
+  <div class="containerStyle">
+  <img class="imagesize" id="bild" src="images/dayz.png">
+  <p id="bildtext" class="infostyle"></p>
+  </div>
+</div>
+
+<script>document.getElementById('bildtext').innerHTML = myFunction('dayz');</script>
+
+</body>
+</html>

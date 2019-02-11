@@ -1,0 +1,56 @@
+.lista{
+  padding-left: 10%;
+  padding-top: 5%;
+  float: left;
+}
+
+.listelement{
+  padding: 10pt;
+}
+
+.imagecontainer{
+  padding-right: 10%;
+  padding-top: 5%;
+  float: right;
+  display: flex;
+}
+
+.containerStyle{
+  -webkit-box-shadow: 10px 10px 32px 0 rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 32px 0 rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 32px 0 rgba(0,0,0,0.75);
+  background-color: #222222;
+}
+
+.hidden{
+  display: none;
+}
+
+.imagesize{
+  width: 425pt;
+}
+
+.buttonstyle {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 200pt;
+}
+
+.infostyle{
+  max-width: 400pt;
+  word-wrap: break-spaces;
+  padding-left: 10pt;
+  padding-bottom: 10pt;
+  background-color: #222222;
+}
+
+
+
+
+
