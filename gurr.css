@@ -1,0 +1,100 @@
+#gurra {
+  background-image: url("images/csgo.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.knappgurr {
+  display: block;
+  color: white;
+  font-family: Impact;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  background-color: black;
+  float: left;
+  width: 180px;
+  cursor:pointer;
+  padding: 10px;
+  margin: 3px;
+  font-family: helvetica;
+}
+
+#knapplista {
+  width: 0px;
+  padding: 4px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+#myDIV {
+  display: none;
+}
+
+#TB {
+  display: none;
+  -webkit-box-shadow: 10px 10px 32px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 32px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 32px 0 rgba(0, 0, 0, 0.5);
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+
+#csgo {
+  -webkit-box-shadow: 10px 10px 32px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 32px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 32px 0 rgba(0, 0, 0, 0.5);
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+
+.cstext {
+  font-size: 10pt;
+  font-family: helvetica;
+  width: 560px;
+}
+
+#textomTB {
+  font-size: 10pt;
+  font-family: helvetica;
+  width: 400px;
+}
+
+.rubrik {
+  font-size: 16pt;
+  font-family: helvetica;
+}
+
+.containDIVS {
+  float: left;
+  margin-left: 10%;
+  margin-top: -100px;
+}
+
+#TBBild {
+  width: 560px;
+  height: 250px;
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+#filmklipp1 {
+  border: #555555;
+  border: 4px;
+  float: left;
+  position: absolute;
+  padding-left: 50px;
+  -webkit-box-shadow: 10px 10px 32px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 32px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 32px 0 rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+#gurrlink:link {
+  color: hotpink;
+}
+#gurrlink:visited {
+  color: orangered;
+}
