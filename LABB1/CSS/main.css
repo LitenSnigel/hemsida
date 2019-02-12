@@ -1,0 +1,30 @@
+body {
+  background-color: #222222;
+  background-size: 1200px 1000px;
+  background-repeat: no-repeat;
+}
+
+
+/*h1 {
+  color: white;
+  font-family: "Helvetica";
+  font-size: 30pt;
+}*/
+
+.rubrik {
+  color: white;
+  font-family: Impact;
+  font-size: 40px;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 900px;
+
+}
+
+p {
+  color: white;
+  font-family: "Helvetica";
+  font-size: 12pt;
+}
+
+

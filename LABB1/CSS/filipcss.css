@@ -1,0 +1,80 @@
+#filipbkg {
+  background-image: none;
+  background-size: 100%;
+  background-color: #222222;
+}
+
+.lista{
+  padding-left: 10%;
+  padding-top: 2%;
+  float: left;
+}
+
+.listelement{
+  padding: 10pt;
+}
+
+.imagecontainer{
+  padding-right: 10%;
+  padding-top: 4%;
+  float: right;
+  display: flex;
+}
+
+.containerStyle{
+  -webkit-box-shadow: 10px 10px 32px 0 rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 32px 0 rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 32px 0 rgba(0,0,0,0.75);
+  background-color: #222222;
+}
+
+.hidden{
+  display: none;
+}
+
+.imagesize{
+  width: 425pt;
+}
+
+.buttonstyle {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 200pt;
+}
+
+.buttonstyle:hover:not(.active){
+  background-color: black;
+  color: orange;
+  transition: 0.5s;
+}
+
+.infostyle{
+  max-width: 400pt;
+  word-wrap: break-spaces;
+  padding-left: 10pt;
+  padding-bottom: 10pt;
+  background-color: #222222;
+}
+
+.hvr-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+  -webkit-transform: translateX(8px);
+  transform: translateX(8px);
+}
+

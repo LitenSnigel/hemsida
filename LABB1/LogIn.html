@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logga in</title>
+  <link rel="stylesheet" href="CSS/loginStyle.css">
+  <script src="scripts.js/loginvalidation.js"></script>
+</head>
+<body>
+
+<div class="loginbox">
+  <h1>Logga In</h1>
+  <form autocomplete="off" name="loginform" onsubmit="return validate()" action="index.html" method="post">
+    <p>Användarnamn</p>
+    <input type="text" name="un" placeholder="Användarnamn">
+    <p>Lösenord</p>
+    <input type="password" name="pw" placeholder="Lösenord">
+    <input type="submit" value="Logga in">
+
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.toolbartop {
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 97%;
+  text-align: left;
+}
+
+/*Placerar komponenterna bredvid varandra i toolbaren */
+.toolbarli {
+  float: left;
+}
+
+/*Placerar logga in-knappen till höger i toolbaren*/
+.loggainknapp {
+  float: right;
+}
+
+/* Design för knapparna i toolbaren högst upp */
+li a {
+  display: block;
+  color: white;
+  font-family: Impact;
+  text-align: center;
+  padding: 12px 50px;
+  text-decoration: none;
+  background-color: black;
+}
+
+/* Design för hover på knapparna */
+li a:hover:not(.active) {
+  background-color: orange;
+  color: black;
+  transition: 0.5s;
+}
+
+.active {
+  background-color: orange;
+  color: black;
+
+}
+
+.toolbarright{
+  list-style-type: none;
+  margin: 15px;
+  padding: 1px;
+  width: 220px;
+  background-color: black;
+  position: fixed;
+  right: 0;
+  top: 90px;
+}
+
+/* Placerar texten i mitten av toolbar på höger sida */
+.videogamesli {
+  float: none;
+}
